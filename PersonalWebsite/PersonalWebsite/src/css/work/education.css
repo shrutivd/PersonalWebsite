@@ -1,0 +1,40 @@
+
+.college{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 10px;
+}
+.college_name{
+  text-decoration: underline;
+}
+
+.psu{
+	display: table-cell;
+	background-color: white;
+    text-align: left;
+	width: 50%;
+	padding-left: 3%;
+	
+}
+
+.sppu{
+	display: table-cell;
+	background-color: white;
+	text-align: left;
+	width: 50%;
+	padding-left: 3%;
+
+}
+
+.bamu{
+	display: table-cell;
+	background-color: white;
+	text-align: left;
+    width: 50%;
+	padding-left: 3%;
+}
+	
+
+.heading{
+}

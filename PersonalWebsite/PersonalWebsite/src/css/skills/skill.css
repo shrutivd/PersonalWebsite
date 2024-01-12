@@ -1,0 +1,35 @@
+.row_1,
+.row_2,
+.row_3 {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.frontend,
+.backend,
+.database,
+.framework,
+.containers,
+.cloud,
+.vc {
+  display: table-cell;
+  background-color: white;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.list {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.skill_name {
+  display: table-cell;
+  background-color: white;
+  text-align: left;
+  padding-left: 3%;
+}
