@@ -1,7 +1,7 @@
 import './App.css'
 import {Route, Routes} from 'react-router-dom'
 
-import About from './components/aboutMe/index'
+import About from './components/aboutMe/about'
 import Navbar from './components/navbar'
 import Project from './components/courseProjects/project';
 import Education from './components/work/education';
