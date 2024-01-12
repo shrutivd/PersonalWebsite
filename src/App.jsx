@@ -15,13 +15,13 @@ function App() {
     <>
     <Navbar />
     <Routes>
-      <Route path='/' element= {<About />} />
-      <Route path='/about' element= {<About />} />
-      <Route path='/project' element= {<Project />} />
-      <Route path='/education' element= {<Education />} />
-      <Route path='/experience' element= {<Experience />} />
-      <Route path='/skills' element= {<Skills />} />
-      <Route path='/contact' element={<Contact />} />
+      <Route path='/PersonalWebsite' element= {<About />} />
+      <Route path='/PersonalWebsite/about' element= {<About />} />
+      <Route path='/PersonalWebsite/project' element= {<Project />} />
+      <Route path='/PersonalWebsite/education' element= {<Education />} />
+      <Route path='/PersonalWebsite/experience' element= {<Experience />} />
+      <Route path='/PersonalWebsite/skills' element= {<Skills />} />
+      <Route path='/PersonalWebsite/contact' element={<Contact />} />
     </Routes>
     </>
   )

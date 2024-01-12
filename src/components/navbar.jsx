@@ -6,22 +6,22 @@ function Navbar() {
      <nav className="navbar">
 			<ul className="nav-list">
 				<li className="item">
-					<Link className="flex-item"  to="/about">About</Link>
+					<Link className="flex-item"  to="/PersonalWebsite/about">About</Link>
 				</li>
 				<li className="item">
-					<Link className="flex-item" to="/project">Project</Link>
+					<Link className="flex-item" to="/PersonalWebsite/project">Project</Link>
 				</li>
 				<li className="item">
-					<Link className="flex-item" to="/education">Education</Link>
+					<Link className="flex-item" to="/PersonalWebsite/education">Education</Link>
 				</li>
 				<li className="item">
-					<Link className="flex-item" to="/experience">Experience</Link>
+					<Link className="flex-item" to="/PersonalWebsite/experience">Experience</Link>
 				</li>
 				<li className="item">
-					<Link className="flex-item" to="/skills">Skills</Link>
+					<Link className="flex-item" to="/PersonalWebsite/skills">Skills</Link>
 				</li>				
 				<li className="item">
-					<Link className="flex-item" to="/contact">Contact</Link>
+					<Link className="flex-item" to="/PersonalWebsite/contact">Contact</Link>
 				</li>
 			</ul>
 		</nav>
