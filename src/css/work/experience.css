@@ -1,0 +1,34 @@
+.company{
+    display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 10px;
+}
+
+.widmlabs{
+    display: table-cell;
+	background-color: white;
+    text-align: left;
+	width: 50%;
+	padding-left: 3%;
+}
+
+.colossus{
+    display: table-cell;
+	background-color: white;
+    text-align: left;
+	width: 50%;
+	padding-left: 3%;
+}
+
+.seed{
+    display: table-cell;
+	background-color: white;
+    text-align: left;
+	width: 50%;
+	padding-left: 3%;
+}
+
+.role{
+    text-decoration: underline;
+}
