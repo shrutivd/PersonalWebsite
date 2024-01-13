@@ -20,7 +20,7 @@ function About() {
 						Engineering)
 					</h3>
 					</div>
-					<div className="para">
+					<div className="para" id="para">
 						<p>
 							My educational journey commenced in India, where I earned both my
 							Bachelor's and Master's degrees in Electronics from reputable
