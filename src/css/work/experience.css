@@ -1,34 +1,32 @@
-.company{
+.company {
     display: table;
-	width: 100%;
-	table-layout: fixed;
-	border-spacing: 10px;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
 }
 
-.widmlabs{
+.widmlabs,
+.colossus,
+.seed {
     display: table-cell;
-	background-color: white;
+    background-color: white;
     text-align: left;
-	width: 50%;
-	padding-left: 3%;
+    width: 100%; /* Occupy full width initially */
+    padding: 10px;
 }
 
-.colossus{
-    display: table-cell;
-	background-color: white;
-    text-align: left;
-	width: 50%;
-	padding-left: 3%;
-}
-
-.seed{
-    display: table-cell;
-	background-color: white;
-    text-align: left;
-	width: 50%;
-	padding-left: 3%;
-}
-
-.role{
-    text-decoration: underline;
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .widmlabs{
+		 display: block; 
+        width: 100%; 
+		margin-top: 10%;
+		
+	}
+    .colossus,
+    .seed {
+        display: block; 
+        width: 100%; 
+		margin-top: 10%;
+    }
 }

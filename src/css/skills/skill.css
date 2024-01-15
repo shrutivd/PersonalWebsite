@@ -33,3 +33,48 @@
   text-align: left;
   padding-left: 3%;
 }
+
+
+@media only screen and (max-width: 768px) {
+.row_1,
+.row_2,
+.row_3 {
+  display: block;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.frontend{
+  display: block;
+  background-color: white;
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 60%;
+}
+.backend,
+.database,
+.framework,
+.containers,
+.cloud,
+.vc {
+  display: block;
+  background-color: white;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.list {
+  display: block;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.skill_name {
+  display: block;
+  background-color: white;
+  text-align: left;
+  padding-left: 3%;
+}
+}

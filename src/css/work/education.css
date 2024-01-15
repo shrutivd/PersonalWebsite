@@ -1,40 +1,36 @@
-
-.college{
-	display: table;
-	width: 100%;
-	table-layout: fixed;
-	border-spacing: 10px;
-}
-.college_name{
-  text-decoration: underline;
+.college {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
 }
 
-.psu{
-	display: table-cell;
-	background-color: white;
+.college_name {
+    text-decoration: underline;
+}
+
+.psu,
+.sppu,
+.bamu {
+    display: table-cell;
+    background-color: white;
     text-align: left;
-	width: 50%;
-	padding-left: 3%;
-	
+    width: 100%;
+    padding: 10px;
 }
 
-.sppu{
-	display: table-cell;
-	background-color: white;
-	text-align: left;
-	width: 50%;
-	padding-left: 3%;
-
-}
-
-.bamu{
-	display: table-cell;
-	background-color: white;
-	text-align: left;
-    width: 50%;
-	padding-left: 3%;
-}
-	
-
-.heading{
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .psu{
+		display: block; 
+        width: 100%; 
+		margin-top: 10%;
+		
+	}
+    .sppu,
+    .bamu {
+        display: block; 
+        width: 100%; 
+		margin-top: 10%;		
+    }
 }

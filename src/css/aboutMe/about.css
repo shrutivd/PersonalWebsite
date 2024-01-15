@@ -50,47 +50,31 @@
 }
 
 /*mobile view*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
+    .about {
+        margin-top: 65%; /* Adjust margin for smaller screens */
+    }
 
-	.about{
-		padding-left: 0;
-	}
+    .image {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
 
-.image {
-	display: block;
-	margin-bottom: 30px;
-	padding: 20px;
-}
+    .text {
+        position: relative;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
 
-.text {
-	position: absolute;
+    .myname,
+    .status,
+    .para {
+        width: 100%;
+        text-align: center;
+    }
 
-	
-	right: 0;
-	background-color: var(--white);
-	width: fit-content;
-    text-align: left;	
-	padding-top: 0;
-}
-
-.myname{
-	display: block;
-	width: fit-content;
-	text-align: center;
-}
-.status{
-	display: block;
-	width: fit-content;
-}
-
-.para {
-	display: block;
-	width: fit-content;
-}
-
-
-#para{
-font-size: small;
-}
-
+    #para {
+        font-size: small;
+    }
 }

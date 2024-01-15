@@ -1,4 +1,4 @@
-/* Add your code here */
+
 
 
 
@@ -110,4 +110,62 @@
   height: 390px;
   margin: 50px auto;
   background-color: white;
+}
+
+
+    @media only screen and (max-width: 768px) {
+    #name {
+        font-size: 20px;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    #username,
+    #email,
+    #phone {
+        width: 90%;
+        float: none;
+        margin-right: 0;
+        padding: 2%;
+    }
+
+    #mail,
+    #phn {
+        font-size: 20px;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-bottom: 3%;
+    }
+
+    #text {
+        margin-top: 15%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    #textarea {
+        width: 90%;
+        height: 80px;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+
+    #btn {
+        margin-top: 15px;
+    }
+
+    #btn_primary,
+    #btn_secondary {
+        padding: 12px 32px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #form {
+        width: 100%;
+        height: auto;
+        padding-bottom: 10%;       
+    }
 }
