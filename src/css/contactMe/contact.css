@@ -107,9 +107,14 @@
 
 #form {
   width: 400px;
-  height: 390px;
-  margin: 50px auto;
+  height: 390px;  
   background-color: white;
+}
+
+.about{
+  background-color: #333333;
+  width: 1000px;
+  height: 900px;
 }
 
 

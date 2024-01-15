@@ -1,6 +1,7 @@
 import "../../css/style.css";
 import "../../css/aboutMe/about.css";
 
+
 function About() {
 	return (
 		<>
@@ -9,7 +10,7 @@ function About() {
 					<div className="about_table">
 					<img
 						className="image"
-						src="./src/image/shruti.jpeg"
+						src="shruti.jpeg"
 						alt="shruti_photo"
 						height="300"
 						width="200"
