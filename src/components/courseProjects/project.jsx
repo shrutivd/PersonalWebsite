@@ -68,9 +68,6 @@ function Project() {
 						query. Developed a containerized Cloud Run application and
 						integrated google places API to get the ratings of the place and
 						leveraged static maps to show the approximate location.
-						<a className="know" href="https://github.com/shrutivd/DBMS-project">
-							<i className="fa fa-github"></i> Go to github
-						</a>
 					</p>
 
 					<h2 className="project">Voice Assistant application:</h2>
@@ -83,9 +80,6 @@ function Project() {
 						demonstrating practical API integration skills. Gained valuable
 						experience in Dialogflow through continuous application during
 						coursework, enhancing conversational interface aptitude.
-						<a className="know" href="https://github.com/shrutivd/DBMS-project">
-							<i className="fa fa-github"></i> Go to github
-						</a>
 					</p>
 
 					<h2 className="project">Internet Relay Chat:</h2>
