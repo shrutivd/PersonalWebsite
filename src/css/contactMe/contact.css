@@ -1,6 +1,7 @@
 
 .contact{
   background-color: white;
+  margin-top: 15%;
 }
 .label{
   display: flex;
@@ -19,7 +20,6 @@
   }
 
   .about{
-  background-color: #333333;
   width: 1000px;
   height: 900px;
 }

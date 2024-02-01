@@ -4,7 +4,6 @@
 	--gray2: #555555;
 	--gray3: #cccccc;
 	--gray4: #aaaaaa;
-
 	--black: #080808;
 	--teal: #006060;
 	--lightteal: #008080;
@@ -12,13 +11,21 @@
 	--navy: #000080;
 	--cyan: #17a2b8;
 	--violetred: #c71585;
-	--red: #ff0000;
 	--orange: #ffa500;
 	--green: #006400;
 }
 
 * {
 	box-sizing: border-box;
+}
+
+html, body {
+    margin-top: 10%;
+    height: 100%;
+	background-color: var(--gray1);
+	margin: 0;
+	padding: 0;	
+
 }
 
 
@@ -68,12 +75,6 @@
 	text-decoration: underline;
 }
 
-html, body {
-	background-color: var(--gray1);
-	margin: 0;
-	padding: 0;	
-}
-
 .name {
 	font-weight: bold;
 	text-align: center;
@@ -99,11 +100,7 @@ html, body {
 
 }
 
-.about{
-	margin-top: 10%;
-	background-color: red;
 
-}
 
 
 /*mobile view*/
