@@ -4,41 +4,17 @@ import "../../css/contactMe/contact.css";
 function Contact() {
 	return (
 		<div className="about">
-		<form className="form" id="form" action="#">
+			<div className="contact">
+			<h2 className="label">Email Id:</h2>
+			<h3 className="information">svd@pdx.edu</h3>
+			<h2 className="label">Mobile No:</h2>
+			<h3 className="information">(971)506-9385</h3>
+			<h2 className="label">Linkedin</h2>
+			<a className="information" href="https://www.linkedin.com/in/shruti-deshmukh-b42592110/">
+							<i ></i> Go to Linkedin
+						</a>
 			
-			<div className="name" id="name">
-				<label htmlFor="username">Name:</label>
-				<input id="username" name="username" type="text" />
-			</div>
-			<div className="mail" id="mail">
-				<label htmlFor="email">Email:</label>
-				<input id="email" name="email" type="email" />
-			</div>
-			<div className="phn" id="phn">
-				<label htmlFor="phone">Phone:</label>
-				<input id="phone" name="phone" type="tel" />
-			</div>
-			
-				<label id="text" htmlFor="textarea">Message:</label>
-				<textarea id="textarea" name="textarea">
-					{" "}
-				</textarea>
-			
-			<div className="btn" id="btn">
-				<input
-					className="btn-primary"
-					id="btn_primary"
-					type="submit"
-					value="Send"
-				/>
-				<input
-					className="btn-secondary"
-					id="btn_secondary"
-					type="reset"
-					value="Reset"
-				/>
-			</div>
-		</form>
+			</div>		
 		</div>
 	);
 }
