@@ -7,7 +7,6 @@ function Project() {
 			<div className="about">
 				<div className="projects">
 					<h2 className="project">Stock Market webpage application:</h2>
-
 					<p className="para_1">
 						Collaborated within a team to develop a centralized webpage for
 						stock market data, encompassing components such as "top gainers,"
