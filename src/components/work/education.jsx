@@ -17,7 +17,7 @@ function Education() {
 				<p>GPA: 3.62</p>
 				<p>Data Structure, Programming Systems, Computer Systems and Programming, Operationg Systems</p>
 			</div>
-			<h3>Master of Science in Computer Science :</h3>
+			<h3>Master in Computer Science :</h3>
 			<div className="details">
 				<p>01/2023 - 06/2024</p>
 				<p>GPA: 3.74</p>
