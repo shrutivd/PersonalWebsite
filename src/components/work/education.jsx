@@ -17,24 +17,24 @@ function Education() {
 				<p>GPA: 3.62</p>
 				<p>Data Structure, Programming Systems, Computer Systems and Programming, Operationg Systems</p>
 			</div>
-			<h3>Master of Science in Computer Science :</h3>
+			<h3>Masters in Computer Science :</h3>
 			<div className="details">
 				<p>01/2023 - 06/2024</p>
-				<p>GPA: 3.74</p>
+				<p>GPA: 3.69</p>
 				<p>Intro to web developement, Frontend Web Tech, Full Stack, Database Management Systems, Software Engineering</p>
 			</div>
 			</div>
 			<div className="sppu">
 			<h2 className="college_name">Savitribai Phule Pune University</h2>
-			<h3>Master of Science in Electronics :</h3>
+			<h3>MSc Electronics :</h3>
 			<div className="details">
 				<p>2014 - 2016</p>
 				<p>Equivalent GPA: 4.0 </p>
 			</div>
 			</div>
 			<div className="bamu">			
-			<h2 className="college_name">Babasaheb Ambedkar Marathwada University</h2>
-			<h3>Bachelor of Science in Electronics :</h3>
+			<h2 className="college_name">Dr. Babasaheb Ambedkar Marathwada University</h2>
+			<h3>BSc Electronics :</h3>
 			<div className="details">
 				<p>2011 - 2014</p>
 				<p>Equivalent GPA: 4.0</p>
