@@ -40,6 +40,8 @@ html, body {
 	right: 0;
 }
 
+
+
 .nav-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -47,6 +49,7 @@ html, body {
 	margin: 0;
 	list-style-type: none;
 	justify-content: center;
+	transition: transform 0.3s ease-in-out;
 }
 
 .flex-item {
@@ -101,6 +104,7 @@ html, body {
 }
 
 
+
 .hamburger {
 	display: none;
 }
@@ -118,7 +122,13 @@ html, body {
 
 /*mobile view*/
 @media (min-width: 320px) and (max-width: 480px) {
+.nav-list.hide{
+	display: none;
+}
 
+.nav-list.show {
+	display: flex;
+}
 .hamburger {
 	width: 2rem;
 	height: 2rem;
@@ -130,17 +140,15 @@ html, body {
 
 
 .nav-list {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	width: 25%;
+	flex-direction: column;
+	align-items: left;
+	background-color: var(--gray4);
+	width: 100%;
 }
 
 .item{
-	padding-left: 130%;
-	
+	padding-left: 10px 0;
+	text-align: center;
 	
 }
 
