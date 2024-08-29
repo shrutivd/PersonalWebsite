@@ -1,9 +1,8 @@
-
-.contact{
+.contact {
   background-color: white;
   margin-top: 15%;
 }
-.label{
+.label {
   display: flex;
   color: black;
   font-size: x-large;
@@ -11,15 +10,14 @@
   margin-bottom: 0%;
 }
 
-.information{
+.information {
   display: inline-flex;
   color: black;
   padding-right: 60%;
   margin-top: 0%;
-
-  }
-
+}
+/* 
   .about{
   width: 1000px;
   height: 900px;
-}
+} */

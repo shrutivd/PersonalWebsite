@@ -8,6 +8,7 @@ import Education from "./components/work/education";
 import Experience from "./components/work/experience";
 import Contact from "./components/contactMe/contact";
 import Skills from "./components/skills/skills";
+import Hamburger from "./components/hamburger";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Route path="/PersonalWebsite/project" element={<Project />} />
 				<Route path="/PersonalWebsite/skills" element={<Skills />} />
 				<Route path="/PersonalWebsite/contact" element={<Contact />} />
+				<Route path="/PersonalWebsite/contact" element={<Hamburger />} />
 			</Routes>
 		</>
 	);
